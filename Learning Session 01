@@ -5,3 +5,57 @@ effective approach to objec-oriented programming.
 
 Python's elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and 
 rapid application development in many areas on most platform
+
+1. Python's Interpreter
+   Python Interpreter is usually installed as /usr/local/bin/python 
+   in the system prompt, you can type the 'python' to execute the Interpreter
+   Typing an end-of-file character(Control-D on Unix and Control-Z on Windows) if that doesn't work
+   you can exit the interpreter by typing the following command quit().
+   
+   When known to the interpreter, the script name and additional arguments thereafter are turned into 
+   a list of strings and assigned to the 'argv' variable in the sys module. Developer can access this list
+   by executing 'import sys'. The length of the list is at least one; when no script and no arguments are given
+   sys.argv[0] is an empty string. when the script name is given as '-'(meaning standard input), sys.argv[0] is
+   set to '-'. when -c command is used, sys.argv[0] is set to '-c'.
+
+2. Source Code Encoding
+   It is possible to use encodings different than ASCII in Python source files. The best way to do it is to
+   put one more special comment line right after the #! line to define the source file encoding:
+   # -*- coding: encoding -*-
+   
+3. Introduction to Python
+   3.1 Using Python as a Calculator
+   Let's try some Python commands. Start the interpreter and wait for the primary prompt, >>>. 
+   3.1.1 Numbers
+   The interpreter acts as a simple calculator: you can type an expression at it and it will write the value.
+   Expression syntax is straightforward. The operators +,-,* and / work just like in most other language.
+   
+   >>> 2 + 2
+   4
+   >>> 50 - 5*6
+   20
+   >>>(50 - 5.0*6)/4
+   5.0
+   >>> 8 / 5.0
+   1.6
+   The integer numbers(4,20) have type int, the ones with a fractional part(e.g. 5.0,1.6) have type float.
+   The return type of a division(/) operation depends on its operands. if both operands are of type int,
+   floor division is performed and an int is returned. if either operand is float, classic division is performed 
+   and a float is returned. 
+   
+   The // operator is also provided for doing floor division no matter what the operands are. for example
+   >>> 17 // 3.0 # explicit floor division discards the fractional part.
+   5.0
+   The remainder can be calculated with the % operator.
+   With Python, it is possible to use the ** operator to calculate powers
+   >>> 5 ** 2 # 5 squared
+   25
+   >>> 2 ** 7 # 2 to the power of 7
+   128
+   
+   
+   
+   
+   
+   
+   
