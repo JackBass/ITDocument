@@ -52,6 +52,18 @@ rapid application development in many areas on most platform
    25
    >>> 2 ** 7 # 2 to the power of 7
    128
+   The equal sign(=) is used to assign a value to a variable. afterwards, no result is displayed before the next 
+   interactive prompt:
+   >>> width = 20
+   >>> height = 5 * 9
+   >>> width * height
+   900
+   if a variable is not "defined" (assigned a value), trying to use it will give you an error:
+   >>>n #try to access an undefined variable
+   Traceback (most recent call last):
+        File "<stdin>", Line 1, in <module>
+   NameError : name 'n' is not defined
+   
    
    
    
