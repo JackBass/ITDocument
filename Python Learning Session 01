@@ -36,8 +36,12 @@ rapid application development in many areas on most platform
    20
    >>>(50 - 5.0*6)/4
    5.0
-   >>> 8 / 5.0
+   >>> 8 / 5.0 
    1.6
+   >>> 17 / 3.0 # int / float -> float 
+   There is full support for floating point;operators with mixed type operands convert the integer operand to floating
+   point:
+   
    The integer numbers(4,20) have type int, the ones with a fractional part(e.g. 5.0,1.6) have type float.
    The return type of a division(/) operation depends on its operands. if both operands are of type int,
    floor division is performed and an int is returned. if either operand is float, classic division is performed 
@@ -63,6 +67,30 @@ rapid application development in many areas on most platform
    Traceback (most recent call last):
         File "<stdin>", Line 1, in <module>
    NameError : name 'n' is not defined
+   
+   3.1.2 Strings
+   Besides numbers, Python can also manipulate strings, which can be expressed in serval ways. They can be enclosed in 
+   single quotes('...') or double quotes("...") with the same result. \ can be used to escape quotes:
+   >>> 'spam eggs' # single quotes
+   'spam eggs'
+   >>>'doesn\'t' # use \' to escape the single quote....
+   "doesn't"
+   >>>"doesn't" # ... or use double quotes instead
+   "doesn't"
+   >>>' "Yes," he said.' 
+   ' "Yes," he said.'
+   >>>"\"Yes,\" he said."
+   ' "Yes," he said.'
+   >>> '"Isn\'t," she said.'
+   '"Isn\'t," she said.'
+   while this might sometimes look different from the input(the enclosing quotes could change), the two strings are 
+   equivalent. The string is enclosed in double quotes if the string contains a single quote and no double quotes.
+   otherwise it is enclosed in single quotes. The print statement produces a more readable output, by omitting the
+   enclosing quotes and by printing escape and special characters:
+   >>> '"Isn\'t," she said.'
+   '"Isn\'t," she said.'
+   >>> print '"Isn\'t," she said.'
+   "Isn't," she said.
    
    
    
