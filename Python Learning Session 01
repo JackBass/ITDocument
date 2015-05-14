@@ -112,7 +112,37 @@ rapid application development in many areas on most platform
    if you want to concatenate variables or a variable and a literal, use +
    >>> prefix + 'thon'
    'Python'
-   String can be indexed (subscripted) with the first character having index 0.
+   String can be indexed (subscripted) with the first character having index 0.There is no separate character type; a
+   character is simply a string of size one:
+   >>> word = 'Python'
+   >>> word[0] # Character in position 0
+   'p'
+   >>> word[5] # Character in position 5
+   'n'
+   Indices may also be negative numbers, to start counting from the right.
+   >>> word[-1] #last character
+   'n'
+   >>> word[-2] #second-last character
+   'o'
+   >>> word[-6]
+   'P'
+   Note that since -0 is the same as 0, negative indices start from -1
+   In addition to indexing, Slicing is also supported, While indexing is used to obtain individual characters,slicing allows
+   you to obtain a substring:
+   
+   >>> word[0:2] # characters from position 0 (included) to 2(excluded)
+   'Py'
+   >>> word[2:5] # characters from position 2 (included) to 5 (excluded)
+   'tho'
+   Note how the start is always included, and the end always excluded. This makes sure that s[:i] + s[i:] is always equal 
+   to s
+   >>> word[:2] + word[2:]
+   'Python'
+   >>> word[:4] + word[4:]
+   'Python'
+   Python strings cannot be changed -- they are immutable. Therefore, assigning to an indexed position in the string 
+   results in an error:
+   
    
    
    
