@@ -91,6 +91,28 @@ rapid application development in many areas on most platform
    '"Isn\'t," she said.'
    >>> print '"Isn\'t," she said.'
    "Isn't," she said.
+   if you don't want characters prefaced by \ to be interpreted as special characters, you can use raw string by adding
+   an r before the first quote:
+   >>>print 'c:\some\name' # here \n means newline!
+   c:\some
+   ame
+   >>>print r'c:\some\name' #note the r before the quote.
+   c:\some\name
+   
+   Strings can be concatenated(glued together) with the + operator, and replaced with *
+   >>># 3 times 'un', followed by 'ium'
+   >>>3 * 'un' + 'ium'
+   'unununium'
+   Two or mor string literals(i.e the ones enclosed between quotes) next to each other are automatically concatenated.
+   >>>'Py' 'thon'
+   'Python'
+   This only works with two literals though, not with variables or expressions:
+   >>>prefix = 'Py'
+   >>>prefix 'thon' #can't concatenate a variable and a string literal
+   if you want to concatenate variables or a variable and a literal, use +
+   >>> prefix + 'thon'
+   'Python'
+   String can be indexed (subscripted) with the first character having index 0.
    
    
    
