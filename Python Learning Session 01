@@ -140,9 +140,52 @@ rapid application development in many areas on most platform
    'Python'
    >>> word[:4] + word[4:]
    'Python'
-   Python strings cannot be changed -- they are immutable. Therefore, assigning to an indexed position in the string 
-   results in an error:
    
+   One way to remember how slices work is to think of the indices as pointing between characters, with the left edge of the
+   first character numbered 0. then the right edge of the last character of a string of n characters has index n, for example:
+   +---+---+---+---+---+---+
+   | P | y | t | h | o | n |
+   +---+---+---+---+---+---+
+   0   1   2   3   4   5   6
+  -6  -5  -4  -3  -2  -1
+  The first row of numbers gives the position of the indices 0...6 in the string; the second row gives the corresponding
+  negative indices. 
+  Attempting to use a index that is too large will result in an error:
+  >>> word[42] # the word only has 6 characters
+  Traceback (most recent call last)
+  IndexError: String index out of range.
+  
+  However, out of range slice indexes are handled gracefully when used for slicing:
+  >>> word[4:42]
+  'on'
+  >>> word[42:]
+  ''
+  Python Strings cannot be changed -- they are immutable. Therefore, assigning to an indexed position in the string results
+  in an error:
+  
+  >>> word[0]='J'
+    ...
+  TypeError : 'str' object does not support item assignment
+  >>> word[2:] = 'Py'
+  TypeError : 'str' object does not support item assignment.
+  
+  if you need a different string, you should create a new one. The built-in function len() returns the length of a string.
+  >>> s = 'suppercalifragilisticexpialidocious'
+  >>> len(s)
+  34.
+  
+  3.1.4 Lists
+  Python knows a number of compound data types, used to group together other values. The most versatile is the list, which
+  can be written as a list of comma-separated values(items) between square brackets. Lists might contain items of different
+  types, but usually the items all have the same type.
+  
+  >>> squares = [1,4,9,16,25]
+  >>> squares
+  [1,4,9,16,25]
+  
+  unlike Strings, which are immutable, lists ara a mutable type. it is possible to change their content.
+  >>>cubes = [1,8,27,65,125]
+  
    
    
    
