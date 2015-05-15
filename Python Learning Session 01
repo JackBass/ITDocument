@@ -186,7 +186,37 @@ rapid application development in many areas on most platform
   unlike Strings, which are immutable, lists ara a mutable type. it is possible to change their content.
   >>>cubes = [1,8,27,65,125]
   
-   
+  You can also add new items at the end of the list, by using the append() method
+  >>> cubes.append(216)
+  
+  Assignment to slices is also possible, and this can even change the size of the list or clear it entirely:
+  >>> letters = ['a','b','c','d','e','f','g']
+  >>> letters
+  ['a','b','c','d','e','f','g']
+  >>> # replace some values
+  >>> letters[2:5] = ['C','D','E']
+  >>> letters
+  ['a','b','C','D','E','f','g']
+  >>> # now remove them
+  >>> letters[2:5]=[]
+  >>> letters
+  ['a','b','f','g']
+  >>> # clear the list by replacing all the elements with an empty list
+  >>> letters[:]=[]
+  >>> letters
+  []
+  The built-in function len() also applies to lists:
+  It is possible to nest lists(create lists containing other lists),for example:
+  >>> a=['a','b','c']
+  >>> n=[1,2,3]
+  >>> x=[a,n]
+  >>> x
+  [['a','b','c'],[1,2,3]]
+  >>>x[0]
+  ['a','b','c']
+  >>>x[0][1]
+  'b'
+  
    
    
    
