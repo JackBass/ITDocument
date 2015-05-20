@@ -1,1 +1,15 @@
 Define Functions in Python
+We can create a function that writes the Fibonacci series to an arbitrary boundary.
+
+>>> def fib(n):
+... a, b = 0,1
+... while a < n:
+...    print a,
+...    a, b = b, a+b
+...
+>>> 
+... fib(2000)
+
+The Keyword "def" introduces a function definition. It must be followed by the function name and the parenthesized list of 
+formal parameters. The statements that form the body of the function start at the next line, and must be indented.
+
