@@ -60,6 +60,30 @@ class LinkedList(object):
 	print nodeList[]
 
 
+    def addAtPos(self,node,pos):  #Method to add Node at specific position
+        count = 0       #Local Count variable
+        currentNode  = self.head  #Current Node point to head
+        previousNode = self.head  #Previous Node point to head
+
+	if pos > self.length or pos < 0:
+	    print "The Position does not exist,Please Enter a Valid Position"
+
+        else:
+	    while currentNode.next != None or count < pos:
+		count = count + 1
+		if count == pos:
+                    previousNode.next = node
+		    node.next = currentNode
+		    self.length +=1
+		    return 
+		else:
+		    previousNode = currentNode
+		    currentNode = currentNode.next
+
+
+
+
+
 if __name__ =="__main__":
 	
    n1 = Node(15)
