@@ -9,3 +9,8 @@ vim .profile
 export JAVA_HOME=/usr/jdk1.7.0_80
 
 export PATH=$JAVA_HOME/bin:$PATH
+
+
+Useful Blog,Article etc...
+
+https://www.ibm.com/developerworks/cn/linux/management/configuration/index.html  --- About Linux Profile's article
