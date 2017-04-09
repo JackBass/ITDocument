@@ -14,3 +14,5 @@ export PATH=$JAVA_HOME/bin:$PATH
 Useful Blog,Article etc...
 
 https://www.ibm.com/developerworks/cn/linux/management/configuration/index.html  --- About Linux Profile's article
+
+http://www.tutorialspoint.com/java/io/outputstream_write.htm  ------- Java API Examples website.
