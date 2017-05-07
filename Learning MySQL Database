@@ -29,6 +29,12 @@ mysql>create table demo_users
     -> password VARCHAR(30),
     -> gender ENUM('M','F') DEFAULT 'M'
     ->);
+mysql> create table users
+    -> (id smallint unsigned primary key auto_increment,
+    ->  username varchar(30),
+    ->  pid smallint unsigned,
+    ->  foreign key (pid) references provinces (id) ON DELETE CASCADE);
+    
 
 9.To show creating table's information
 mysql> show create table tbl_name;
