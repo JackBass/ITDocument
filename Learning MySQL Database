@@ -29,3 +29,17 @@ mysql>create table demo_users
     -> password VARCHAR(30),
     -> gender ENUM('M','F') DEFAULT 'M'
     ->);
+
+9.To show creating table's information
+mysql> show create table tbl_name;
+
+10.To show current Table's index
+mysql> show index from tbl_name\G; (\G display information by grid format)
+
+11. Using one specific database
+mysql> use db_name;
+
+12. To show what we have database in MySQL
+mysql>show databases;
+
+13.
