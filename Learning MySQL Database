@@ -9,3 +9,6 @@ mysql>alter database db_name character set=utf8;
 
 3.Grant privilege to user(one of methods to add new mysql user)
 mysql>grant all privileges on db_name.* to demo@"localhost" identified by "demo" with grant option;
+
+4.flush privileges
+mysql>flush privileges
