@@ -1,3 +1,5 @@
-1. [To Create New Database with utf8 Character Set][<b>]
+1. To Create New Database with utf8 Character Set
 
 mysql> create database db_name character set=utf8 (be care of, character set=utf8 not "utf-8"
+mysql> show create database db_name; (To check detail information while you create database named as db_name)
+
