@@ -21,3 +21,11 @@ user@localhost:~$mysql -u root -p (username: root, -p means type the password in
 
 7.To Show current database we are using.
 mysql>select database();
+
+8.To Create Table 
+mysql>create table demo_users
+    ->(id TINYINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    -> username VARCHAR(30),
+    -> password VARCHAR(30),
+    -> gender ENUM('M','F') DEFAULT 'M'
+    ->);
