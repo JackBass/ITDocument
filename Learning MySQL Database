@@ -42,4 +42,22 @@ mysql> use db_name;
 12. To show what we have database in MySQL
 mysql>show databases;
 
-13.
+13. To show what we have tables in current database
+mysql> use db_name; --(First step)
+mysql> show tables; -- to show what tables we have in current database;
+
+14. To Check Table's structure.(field name, data type,Nullable,Key, Extra....)
+mysql> show columns from tbl_name;
+
+15. Same with 14.
+mysql> describe tbl_name;
+
+
+16. insert value into table
+mysql> insert into demo_users values(NULL,"TOM","ouo",DEFAULT); 
+mysql> insert into demo_users(username,password) values("Mark","opo");
+-- First value NULL here we are using that means the id column using AUTO_INCREMENT, so, when we insert value to the table,
+-- NULL can be used for that increase column, and "DEFAULT" keywords with same effort.
+
+17. Add new Column to Table.
+mysql> 
