@@ -1,1 +1,3 @@
+1. To Create New Database with utf8 Character Set
 
+mysql> create database db_name 
