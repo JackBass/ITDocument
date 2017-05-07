@@ -16,3 +16,5 @@ Useful Blog,Article etc...
 https://www.ibm.com/developerworks/cn/linux/management/configuration/index.html  --- About Linux Profile's article
 
 http://www.tutorialspoint.com/java/io/outputstream_write.htm  ------- Java API Examples website.
+
+blog.csdn.net/liuzhenwen/article/details/28078625 -- Hadoop Hive Integrated with HBase.
