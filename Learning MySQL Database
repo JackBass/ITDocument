@@ -109,5 +109,8 @@ mysql> alter table users2 drop index useranme;
 30.To drop foreign key to a Table
 mysql> alter table users2 drop foreign key users2_ibfk_1; --(show create table users2 to check foreign key's name);
 
+31.Insert two rows into a Table at same time
+mysql> insert into users values(NULL,"Mark","97979","M",45001),(NULL,"Tina","797979","F",45002);
+
 
 
