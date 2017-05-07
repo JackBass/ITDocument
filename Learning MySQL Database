@@ -1,3 +1,3 @@
-1. <b>To Create New Database with utf8 Character Set</b>
+1. [To Create New Database with utf8 Character Set][<b>]
 
 mysql> create database db_name character set=utf8 (be care of, character set=utf8 not "utf-8"
