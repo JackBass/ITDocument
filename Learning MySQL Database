@@ -59,5 +59,49 @@ mysql> insert into demo_users(username,password) values("Mark","opo");
 -- First value NULL here we are using that means the id column using AUTO_INCREMENT, so, when we insert value to the table,
 -- NULL can be used for that increase column, and "DEFAULT" keywords with same effort.
 
-17. Add new Column to Table.
-mysql> 
+17.To add new Column to Table.
+mysql> alter table demo_users add city varchar(10) NOT NULL;
+mysql> show columns from demo_users;
+
+18.To drop a existing column from table
+mysql> alter table demo_users drop city;
+
+19.To add more columns from Table
+mysql> alter table demo_users add city varchar(20) NOT NULL,add student_num TINYINT;
+
+20.To drop more columns from Table
+mysql> alter table demo_users drop city,drop student_num;
+
+21.To Change column's attribute
+mysql> alter table demo_users modify city varchar(20) NOT NULL (remove default value)
+
+22.To Change more column's attribute
+mysql> alter table demo_users modify city varchar(40) DEFAULT "BJ",modify student_num INT UNSIGNED DEFAULT 100;
+
+23.To add primary key constraint to a table
+mysql> alter table demo_users add constraint pk_users2_id primary key (id);
+
+24.To add unique constraint to a Table
+mysql> alter table demo_users add constraint unique (username);
+
+25.To add foreign key constraint to a Table
+mysql> alter table demo_users add foreign key (id) references provinces (id);
+
+26.To add default constraint to a Table
+mysql> alter talbe users2 alter age set default 15;
+
+27.To drop default constraint to a table;
+mysql> alter table users2 alter age drop default;
+
+28.To Drop primary key constraint to a Table
+mysql> alter table users2 drop primary key;
+
+29.To drop unique key to a Table;
+mysql> alter table users2 drop index|key index_name;
+mysql> alter table users2 drop index useranme;
+
+30.To drop foreign key to a Table
+mysql> alter table users2 drop foreign key users2_ibfk_1; --(show create table users2 to check foreign key's name);
+
+
+
