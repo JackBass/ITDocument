@@ -11,4 +11,7 @@ mysql>alter database db_name character set=utf8;
 mysql>grant all privileges on db_name.* to demo@"localhost" identified by "demo" with grant option;
 
 4.flush privileges
-mysql>flush privileges
+mysql>flush privileges;
+
+5.Drop a mysql Database
+mysql> drop database db_name;
