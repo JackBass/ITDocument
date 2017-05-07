@@ -3,3 +3,9 @@
 mysql> create database db_name character set=utf8 (be care of, character set=utf8 not "utf-8"
 mysql> show create database db_name; (To check detail information while you create database named as db_name)
 
+2. To Create New Database and Change Character Set by ALTER Statement.
+mysql>create database db_name;
+mysql>alter database db_name character set=utf8;
+
+3.Grant privilege to user(one of methods to add new mysql user)
+mysql>grant all privileges on db_name.* to demo@"localhost" identified by "demo" with grant option;
