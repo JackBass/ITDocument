@@ -15,3 +15,6 @@ mysql>flush privileges;
 
 5.Drop a mysql Database
 mysql> drop database db_name;
+
+6.Login MySQL Database
+user@localhost:~$mysql -u root -p (username: root, -p means type the password in invisable mode)
