@@ -18,3 +18,6 @@ mysql> drop database db_name;
 
 6.Login MySQL Database
 user@localhost:~$mysql -u root -p (username: root, -p means type the password in invisable mode)
+
+7.To Show current database we are using.
+mysql>select database();
