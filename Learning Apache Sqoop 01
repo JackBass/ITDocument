@@ -1,0 +1,33 @@
+The Apache Sqoop has two major version, sqoop1 and sqoop2. sqoop1 (version with 1.4.*) and sqoop2 (version with 1.99.*)
+
+currently, we focus on sqoop1.
+
+1. Downlaod sqoop-1.4.6.tar.gz from sqoop.apache.org
+2. tar -xvf sqoop-1.4.6.tar.gz
+
+3. edit profile
+   export SQOOP_HOME=/usr/sqoop-1.4.6/
+   export PATH=$SQOOP_HOME/bin:$PATH
+   
+4.$SQOOP_HOME/conf/
+  cp sqoop-env-template.sh sqoop-env.sh
+  set HADOOP_COMMON_HOME=/usr/hadoop-2.7.3
+  set HADOOP_MAPRED_HOME=/usr/hadoop-2.7.3
+  
+  set HIVE_HOME=/usr/apache-hive-1.2.2-bin
+  
+ 5. $SQOOP_HOME/bin/configure-sqoop
+ comment at HCatalog, Accumulo component.
+ ## Moved to be a runtime check in sqoop.
+ #if [ ! -d "${HCAT_HOME}" ]; then
+ # echo "Warning: $HCAT_HOME does not exist! HCatalog jobs willfail."
+ # echo 'Please set $HCAT_HOME to the root of your HCatalog installation.'
+ #fi
+ #if [ ! -d "${ACCUMULO_HOME}" ];then
+ # echo "Warning: $ACCUMULO_HOME does not exist! Accumulo imports willfail."
+ # echo 'Please set $ACCUMULO_HOME to the root of your Accumuloinstallation.'
+ #fi 
+ 
+ 6.Execute the sqoop command, with following error
+ Error: Could not find or load main class org.apache.sqoop.Sqoop
+ add sqoop-1.4.6.jar file into $SQOOP_HOME/lib
