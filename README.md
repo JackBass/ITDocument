@@ -18,3 +18,6 @@ https://www.ibm.com/developerworks/cn/linux/management/configuration/index.html 
 http://www.tutorialspoint.com/java/io/outputstream_write.htm  ------- Java API Examples website.
 
 http://blog.csdn.net/liuzhenwen/article/details/28078625 -- Hadoop Hive Integrated with HBase.
+
+
+http://blog.csdn.net/zxcvg/article/details/18600335  --- Flume-ng+Kafka+storm的学习笔记 (非常好的文章)
