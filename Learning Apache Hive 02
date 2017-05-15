@@ -5,7 +5,15 @@ cp hive-default.xml.template  hive-site.xml
 cp hive-env.sh.template hive-env.sh
 cp hive-log4j.properties.template hive-log4j.properties
 
-hive-env.sh
+--hive-env.sh file
 export HADOOP_HOME=/usr/hadoop-2.7.3
 export HIVE_CONF_DIR=/usr/apache-hive-1.2.2-bin/conf
 
+--hive-log4j.properties file
+hive.log.threshold = ALL
+hive.root.logger=INFO,DRFA
+hive.log.dir=/home/hadoop/bigdata/hive/log
+hive.log.file=hive.log
+
+--hive-site.xml file
+To Check another Notes
