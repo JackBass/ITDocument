@@ -21,3 +21,5 @@ http://blog.csdn.net/liuzhenwen/article/details/28078625 -- Hadoop Hive Integrat
 
 
 http://blog.csdn.net/zxcvg/article/details/18600335  --- Flume-ng+Kafka+storm的学习笔记 (非常好的文章)
+
+http://www.cnblogs.com/lijingchn/p/5574476.html  --- Linux中安装配置Hadoop集群
