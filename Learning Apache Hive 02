@@ -17,3 +17,12 @@ hive.log.file=hive.log
 
 --hive-site.xml file
 To Check another Notes
+
+
+-- Using Oracle to store Hive metadata, have to execute following command. 
+schematool -dbType oracle -initSchema
+
+but I faced the error
+Found class jline.Terminal, but interface was expected --error 
+root cause for this issue
+$HADOOP_HOME/share/hadoop/yarn/lib/jline-0.9.94.jar backup first, and remove it. so the issue solved.
