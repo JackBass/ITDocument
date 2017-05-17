@@ -1,4 +1,4 @@
-How to load Date Type data from CSV into Hive Table 
+1.How to load Date Type data from CSV into Hive Table 
 create table t_items
 (item_id int,
  org_code string,
@@ -11,4 +11,18 @@ create table t_items
  
 The creation_date was date type, when you store date type data in csv, should be YYYY-MM-DD format, for example 2015-05-03, not
 '2015-05-03', remove the single quote, just give it directly.
+
+2. create database in Hive
+hive> create (database|schema) if not exists my_hive_db  (my_hive_db is my database name which I want to create).
+set database properties 
+hive> alter (database|schema) my_hive_db set DBPROPERTIES ("Author"="Mark","Date"="2017-05-17");
+schema keywords add at Hive0.14.0 and later.
+
+
+3.Describe the database defintion
+hive> describe database my_hive_db;
+
+4.Choose one Hive database to use
+hive>use database_name
+hive>use my_hive_db
 
