@@ -97,5 +97,6 @@ CREATE [TEMPORARY] [EXTERNAL] TABLE [IF NOT EXISTS] [db_name.]table_name    -
       [, CONSTRAINT constraint_name FOREIGN KEY (col_name, ...) REFERENCES table_name(col_name, ...) DISABLE NOVALIDATE 
 
 
-
+*****************************************************************************************************
+Table names and column names are case insensitive but SerDe and property names are case sensitive. 
 
