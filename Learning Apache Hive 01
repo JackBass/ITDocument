@@ -121,4 +121,22 @@ TBLPROPERTIES("parquet.mr.int96.write.zone"="timeZoneId") (HIVE-12767) – Pro
                                                                        - storing the Java time zone ID used to adjust timestamp values. 
                                                       Also see the configuration parameter hive.parquet.mr.int96.enable.utc.write.zone.
                                                       
+============================
+Managed and External Tables
+============================
+By Default Hive creates managed tables, where files,metadata and statistics are managed by internal Hive processes. A managed table
+is stored under the "hive.metastore.warehouse.dir" path property,The default location can be overridden by the location property 
+during table creation.the data and metadata associated with that table or partition are deleted. 
+
+An external table describes the metadata/schema on external files. External table files can be accessed and managed by processes outside
+of Hive. External tables can access data stored in sources suche as Azure Storage Volumes(ASV) or remote HDFS Location.
+
+Use External Tables when files are already present or in remote locations, and the files should remain even if the table is dropped.
+Managed or external tables can be identified using "describe formatted table_name" which will display either MANAGED_TABLE or EXTERNAL_TABLE
+depending on table type.
+
+================
+Storage Formats
+================
+Hive supports built-in and custom-developed file format 
 
