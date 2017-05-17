@@ -29,3 +29,20 @@ this table.
 
 An EXTERNAL table points to any HDFS location for its storage, rather than being stored in a folder specified by 
 the configuration property hive.metastore.warehouse.dir.
+
+Examples
+CREATE EXTERNAL TABLE page_view(viewTime int, userid BIGINT,
+                                page_url STRING,
+                                reference_url STRING,
+                                ip STRING COMMENT 'IP Address of the User',
+                                country STRING COMMENT 'country of origination')
+  comment 'This is the staging page view table'
+  row format delimited fields terminated by ','
+  stored as textfile
+  LOCATION '<hdfs_location>';
+  
+  
+  ============================
+  Create Table As Select(CTAS)
+  ============================
+  
