@@ -19,3 +19,13 @@ should be a pseudocolumn)
 How to load data into Hive Partition Table
 ============================
 LOAD DATA LOCAL INPATH /tmp/pv_2008-06-08_us.txt INTO TABLE page_view PARTITION(date='2008-06-08', country='US')
+
+
+===================
+External Tables
+===================
+EXTERNAL keywords lets you create a table and provide a LOCATION so that Hive does not use a default location for
+this table.
+
+An EXTERNAL table points to any HDFS location for its storage, rather than being stored in a folder specified by 
+the configuration property hive.metastore.warehouse.dir.
