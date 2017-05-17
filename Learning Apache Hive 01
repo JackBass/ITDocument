@@ -102,3 +102,23 @@ Table names and column names are case insensitive but SerDe and property names a
 
 Table and column comments are string literals (single-quoted).
 
+The TBLPROPERTIES clause allows you to tag the table definition with your own metadata key/value pairs. 
+Some predefined table properties also exist, such as last_modified_user and last_modified_time which are automatically 
+added and managed by Hive. Other predefined table properties include:
+TBLPROPERTIES ("comment"="table_comment")
+TBLPROPERTIES ("hbase.table.name"="table_name") – see HBase Integration
+TBLPROPERTIES ("immutable"="true") or ("immutable"="false") in release 0.13.0+ (HIVE-6406) 
+              – see Inserting Data into Hive Tables from Queries
+TBLPROPERTIES ("orc.compress"="ZLIB") or ("orc.compress"="SNAPPY") or ("orc.compress"="NONE") and other ORC properties – see ORC Files
+TBLPROPERTIES ("transactional"="true") or ("transactional"="false") in release 0.14.0+, the default is "false" – see Hive Transactions
+TBLPROPERTIES ("NO_AUTO_COMPACTION"="true") or ("NO_AUTO_COMPACTION"="false"), the default is "false" – see Hive Transactions
+TBLPROPERTIES ("compactor.mapreduce.map.memory.mb"="mapper_memory") – see Hive Transactions
+TBLPROPERTIES ("compactorthreshold.hive.compactor.delta.num.threshold"="threshold_num") – see Hive Transactions
+TBLPROPERTIES ("compactorthreshold.hive.compactor.delta.pct.threshold"="threshold_pct") – see Hive Transactions
+TBLPROPERTIES ("auto.purge"="true") or ("auto.purge"="false") in release 1.2.0+ (HIVE-9118) – see Drop Table and Drop Partitions
+TBLPROPERTIES ("EXTERNAL"="TRUE") in release 0.6.0+ (HIVE-1329) – Change a managed table to an external table and vice versa for "FALSE"
+TBLPROPERTIES("parquet.mr.int96.write.zone"="timeZoneId") (HIVE-12767) – Property set on Parquet tables only, 
+                                                                       - storing the Java time zone ID used to adjust timestamp values. 
+                                                      Also see the configuration parameter hive.parquet.mr.int96.enable.utc.write.zone.
+                                                      
+
