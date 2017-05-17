@@ -1,1 +1,17 @@
+=====================
+Storage Formats
+=====================
+Stored as plain text files. TEXTFILE is the default file format, unless the configuration parameter "hive.default.fileformat"
+
+=====================
+Partitioned Table
+=====================
+Partitioned tables can be created using PARTITIONED BY Clause. A Table can have one or more partition columns and separate data
+directory is created for each distinct value combination in the partition columns. further tables or partitions can be bucketed 
+using CLUSTERED BY columns, and data can be stored within that bucket via SORT BY columns. This can improve performance on
+certain kinds of queries.
+
+"FAILED: Error in semantic analysis: Column repeated in partition columns," It's means you are try to include the partitioned 
+column in the data of the table itself. so the Partition column can't be included in Table's definition, so the partition column
+should be a pseudocolumn)
 
