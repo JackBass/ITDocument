@@ -15,3 +15,7 @@ certain kinds of queries.
 column in the data of the table itself. so the Partition column can't be included in Table's definition, so the partition column
 should be a pseudocolumn)
 
+============================
+How to load data into Hive Partition Table
+============================
+LOAD DATA LOCAL INPATH /tmp/pv_2008-06-08_us.txt INTO TABLE page_view PARTITION(date='2008-06-08', country='US')
