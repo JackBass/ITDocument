@@ -27,3 +27,5 @@ http://www.cnblogs.com/lijingchn/p/5574476.html  --- Linux中安装配置Hadoop�
 http://blog.csdn.net/high2011/article/details/52425430  --- 编写Hive UDF，详实的资料
 
 http://blog.csdn.net/high2011/article/details/52539071  --- 编写Hive UDF 获取当前日期
+
+http://blog.csdn.net/tswisdom/article/details/41522069  --- Zookeeper 系列
