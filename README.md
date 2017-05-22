@@ -29,3 +29,5 @@ http://blog.csdn.net/high2011/article/details/52425430  --- 编写Hive UDF，详
 http://blog.csdn.net/high2011/article/details/52539071  --- 编写Hive UDF 获取当前日期
 
 http://blog.csdn.net/tswisdom/article/details/41522069  --- Zookeeper 系列
+
+http://www.cnblogs.com/luxiaoxun/p/5272384.html  --- 一个轻量级分布式RPC框架--NettyRpc  Simple Dubbo Framework 
