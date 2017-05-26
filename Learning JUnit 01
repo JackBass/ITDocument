@@ -31,5 +31,23 @@ JUnit测试的流程
   @Test(timeout=毫秒) 设置执行时间
 5.@Ingore所修饰的测试方法会被测试运行器忽略
 6.@RunWith是用来更改测试运行器，用户可以自定义测试运行器
-   需要继承org.junit.runner.Runner.
+   需要继承org.junit.runner.Runner.默认的运行器就能满足测试需要
 
+
+===================
+JUnit测试套件
+===================
+@RunWith(Suite.class)
+@Suite.SuiteClasses({})
+1.测试套件就是组织测试类一起运行的
+2.写一个作为测试套件的入口类，这个类里不包含任何其他方法
+  更改测试运行器Suite.class
+  将要测试的类作为数组传入到Suite.SuiteClasses({})
+  
+=====================
+JUnit参数话设置
+=====================
+1.更改默认的测试运行器为Parameterized.class
+2.声明变量来存放预期值和结果值
+3.声明一个返回值为Collection的公共静态方法，并使用@Parameters进行修饰
+4.为测试类声明一个带有参数的公共构造函数，并在其中为之声明变量赋值
