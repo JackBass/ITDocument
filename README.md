@@ -37,3 +37,5 @@ http://www.cnblogs.com/bigdataZJ/p/spring1.html   --- Spring in Action 实战，
 http://blog.csdn.net/congcong68/article/details/41113239  ---- Dubbo Zookeeper Spring Integration Article
 
 http://blog.csdn.net/wangpeng047/article/details/9627527  ---- JUnit 系列文章，其中还有Spring Maven，Hibernate的使用
+
+https://www.w3cschool.cn/junit/   ---- w3cschool.cn JUnit Training Course.
