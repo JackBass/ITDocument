@@ -26,3 +26,7 @@ JUnit测试的流程
 2.@AfterClass所修饰的方法通常用来对资源的清理，如关闭数据库连接
 3.@Before和@After会在每个测试方法的前后各执行一次
 
+4.@Test是将一个普通的方法修饰成为一个测试方法
+  @Test(expected=XX.class)
+  @Test(timeout=毫秒) 设置执行时间
+
