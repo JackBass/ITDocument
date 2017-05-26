@@ -29,4 +29,7 @@ JUnit测试的流程
 4.@Test是将一个普通的方法修饰成为一个测试方法
   @Test(expected=XX.class)
   @Test(timeout=毫秒) 设置执行时间
+5.@Ingore所修饰的测试方法会被测试运行器忽略
+6.@RunWith是用来更改测试运行器，用户可以自定义测试运行器
+   需要继承org.junit.runner.Runner.
 
