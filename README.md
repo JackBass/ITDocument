@@ -35,3 +35,5 @@ http://www.cnblogs.com/luxiaoxun/p/5272384.html  --- 一个轻量级分布式RPC
 http://www.cnblogs.com/bigdataZJ/p/spring1.html   --- Spring in Action 实战，不错的一个博客
 
 http://blog.csdn.net/congcong68/article/details/41113239  ---- Dubbo Zookeeper Spring Integration Article
+
+http://blog.csdn.net/wangpeng047/article/details/9627527  ---- JUnit 系列文章，其中还有Spring Maven，Hibernate的使用
