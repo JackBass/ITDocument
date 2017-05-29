@@ -41,3 +41,5 @@ http://blog.csdn.net/wangpeng047/article/details/9627527  ---- JUnit 系列文�
 https://www.w3cschool.cn/junit/   ---- w3cschool.cn JUnit Training Course.
 
 http://www.cnblogs.com/pwc1996/p/4839131.html  ---- cnblog, Spring+SpringMVC+MyBaitis Configuration
+
+http://www.cnblogs.com/eggbucket/archive/2012/02/02/2335697.html   ---- junit4 详解
