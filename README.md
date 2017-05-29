@@ -45,3 +45,5 @@ https://www.ibm.com/developerworks/cn/linux/l-assembly/  -- IBM Assembly Languag
 http://www.cnblogs.com/pwc1996/p/4839131.html  ---- cnblog, Spring+SpringMVC+MyBaitis Configuration
 
 http://www.cnblogs.com/eggbucket/archive/2012/02/02/2335697.html   ---- junit4 详解
+
+http://www.cnblogs.com/fingertouch/archive/2013/05/02/3054721.html  --- Linux 下写汇编程序
