@@ -56,3 +56,9 @@ public class JDBCResultSetDemo{
     conn.close();
   }
 }
+
+
+===============
+使用结果集插入数据
+===============
+如果想要使用ResultSet插入数据，则在创建数据库操作时就必须选择允许更新
