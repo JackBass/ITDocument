@@ -61,4 +61,13 @@ public class JDBCResultSetDemo{
 ===============
 使用结果集插入数据
 ===============
-如果想要使用ResultSet插入数据，则在创建数据库操作时就必须选择允许更新
+如果想要使用ResultSet插入数据，则在创建数据库操作时就必须选择允许更新，采用CONCUR_UPDATABLE方式进行操作。
+void moveToInsert() 
+              throws SQLException
+表示移动到插入的一行，肯定是所有记录之后（记录集的末尾）
+
+void insertRow() 
+              throws SQLException
+用此方法进行数据的提交
+
+
