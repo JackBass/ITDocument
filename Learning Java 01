@@ -13,4 +13,6 @@ PreparedStatement prepareStatement(String sql,
                                    int resultSetConcurrency) 
                             throws SQLException
                             
-                            
+JDBC对ResultSet进行了扩展，有几个常量比较常用，ResultSet.static final int TYPE_FORWARD_ONLY, (表示指针只能向前移动，是默认值)
+ResultSet.static final int TYPE_SCROLL_SENSITIVE ResultSet可以滚动，可以更新内容，ResultSet.TYPE_SCROLL_INSENSITIVE 可以滚动，但是
+不能跟新。
