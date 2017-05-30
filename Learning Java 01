@@ -3,3 +3,14 @@ Java学习笔记
 ==============
 在Java String（字符串）中切割变量，' " +variable_name+  "  '  采用这个方式切割变量，这个在JDBC开发中经常使用，这样SQL语句会更加灵活
 
+=============
+JDBC 操作
+=============
+可滚动的结果集： 如果想使用可滚动的结果集，则在创建PreparedStatement(Statement)的时候必须指定类型，指定结果集的类型
+
+PreparedStatement prepareStatement(String sql,
+                                   int resultSetType,  --- 结果集类型
+                                   int resultSetConcurrency) 
+                            throws SQLException
+                            
+                            
