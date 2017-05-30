@@ -71,3 +71,20 @@ void insertRow()
 用此方法进行数据的提交
 
 
+================
+使用结果集更新数据
+================
+如果使用结果集更新数据，则首先应该按ID查询
+boolean last() throws SQLException; //首先是到最后一行
+
+void updateRow() throw SQLException //真正更新数据的操作
+
+如果之前使用了取消更新，则程序不会进行更新操作，取消更新的操作方法是void cancelUpdateRow() throws SQLException; 这个取消更新的操作是在
+updateRow()之前执行，更新操作就会被取消。
+
+
+
+=================
+使用结果集删除数据
+=================
+基本的操作流程还是一样的，直接移动到要删除的位置，使用deleteRow()方法即可。
