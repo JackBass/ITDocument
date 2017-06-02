@@ -6,9 +6,21 @@ JSP基本知识点
 <%-- JSP comments --%> //客户端不可见
 <%
 
-  Java脚本注释
+  Java脚本注释 客户端不可见
   //Single Comments
   /*
     Multiple Comments
   */
 %>
+
+
+JSP脚本（所谓脚本就是Java代码）
+============================
+<% %> 之间的内容就是用来编写Java代码的位置
+例如
+<%
+  out.println("Welcome to use JSP Application");
+%>
+
+在JSP页面中定义变量或者方法
+========================
