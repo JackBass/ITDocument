@@ -1,6 +1,14 @@
 ============
 JSP基本知识点
 ============
+Tomcat下的目录
+$CATALINA_HOME/work -- web应用程序，所生成的Servlet的Java源文件，和class字节码文件
+$CATALINA_HOME/webapp -- webapp文件夹下存放着具体的Web应用
+$CATALINA_HOME/bin -- Tomcat的启动程序，
+$CATALINA_HOME/lib -- 运行Tomcat的jar文件
+
+
+
 1.JSP页面中的注释 HTML注释
 <!-- html comments --> //客户端可见
 <%-- JSP comments --%> //客户端不可见
