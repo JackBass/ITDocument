@@ -51,3 +51,8 @@ JSP页面的生命周期
 ===============
 jspService()方法被调用来处理客户端的请求。如果多个客户端同时请求改JSP文件，则JSP引擎会创建多个线程，开发者需要
 考虑多线程带来的同步问题。由于Servlet始终位于内存，所以响应速度快
+
+
+pageEncoding是JSP页面文件本身的编码
+contentType的charset是指服务器发送给客户端的内容编码
+contentType更常用
