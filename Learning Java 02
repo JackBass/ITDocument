@@ -1,0 +1,14 @@
+============
+JSP基本知识点
+============
+1.JSP页面中的注释 HTML注释
+<!-- html comments --> //客户端可见
+<%-- JSP comments --%> //客户端不可见
+<%
+
+  Java脚本注释
+  //Single Comments
+  /*
+    Multiple Comments
+  */
+%>
