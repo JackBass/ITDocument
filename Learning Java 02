@@ -24,3 +24,11 @@ JSP脚本（所谓脚本就是Java代码）
 
 在JSP页面中定义变量或者方法
 ========================
+语法：<%! Java  %> 才使用这个方式声明变量和方法
+
+<%!
+  String s  = "Tomcat"
+  ind add(int x,int y){
+    return x + y;
+  }
+%>
