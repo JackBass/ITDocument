@@ -56,3 +56,21 @@ jspService()方法被调用来处理客户端的请求。如果多个客户端�
 pageEncoding是JSP页面文件本身的编码
 contentType的charset是指服务器发送给客户端的内容编码
 contentType更常用
+
+
+JSP内置对象
+===========
+JSP内置对象是Web容器创建的一组对象，不使用new关键字，就可以使用的
+内置对象。JSP一共有9大内置对象，比较常用的是5大对象
+out, request,response,session,application
+除此之外，还有4个JSP内置对象
+Page pageContext exception config
+
+get/post表单提交方式的区别
+=======================
+1.get 以明文的方式通过URL提交数据，数据在URL中可以看到，提交的数据最多不能超过2KB。安全性较低但是效率比post方式高。
+适合提交数据量不大，安全性不高的数据，比如搜索，查询等。
+
+2.post 将用户提交的信息封装在HTML HEADER内，适合提交数据量大，安全性高的用户信息，比如：注册，
+修改，上传等功能
+
