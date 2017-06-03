@@ -9,3 +9,10 @@ JSP内置对象：response对象
 response对象包含了响应客户请求的有关信息，但是在JSP页面中很少直接使用它，它是HttpServletResponse类的实例。
 response对象具有页面作用域，即访问一个页面时，该页面内的response对象只能对这次访问有效，其他页面的response对象
 对当前页面无效，
+
+
+请求转发与请求重定向
+==================
+重定向-两次请求 客户端行为request
+转发- 一次请求 服务器行为response
+
