@@ -2,3 +2,10 @@ JSP内置对象：request对象
 ======================
 客户端的请求信息被封装在request对象中，通过它才能了解到客户的需求，然后做出响应。它是HttpServletRequest类的实例
 request对象具有请求域，即完成客户端的请求之前，改对象一致有效
+
+
+JSP内置对象：response对象
+=======================
+response对象包含了响应客户请求的有关信息，但是在JSP页面中很少直接使用它，它是HttpServletResponse类的实例。
+response对象具有页面作用域，即访问一个页面时，该页面内的response对象只能对这次访问有效，其他页面的response对象
+对当前页面无效，
