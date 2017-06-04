@@ -48,3 +48,12 @@ java.lang.Object类的实例
 <jsp:getProperty>
 作用：获取指定JavaBean对象的属性值
 <jsp:getProperty name="JavaBean实例名" property="属性名" />
+
+
+JavaBean的四个作用域范围
+======================
+使用useBean动作标签的scope属性可以设置JavaBean的作用域范围
+page 当前页面有效
+request 通过HttpRequest.getAttribute()方法获得JavaBean对象
+session 可以通过HttpSession.getAttribute()方法获得JavaBean对象
+application 可以通过application.getAttribute()方法获得JavaBean对象
