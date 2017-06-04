@@ -16,3 +16,10 @@ response对象具有页面作用域，即访问一个页面时，该页面内的
 重定向-两次请求 客户端行为response
 转发- 一次请求 服务器行为request
 
+Session的生命周期
+=================
+Session的销毁，三种销毁方式
+1.调用了session.invalidate();
+2.Session过期了（超时）
+3.服务器重新启动
+
