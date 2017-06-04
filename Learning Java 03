@@ -67,3 +67,9 @@ Servlet是运行在服务器端的小程序，并且是可以采用“请求-响
 Tomcat容器等级
 ==============
 Servlet的容器管理Context容器，一个Context对应一个Web工程
+
+手工编写Servlet程序
+==================
+1.继承HttpServlet抽象类
+2.覆写doGet()或者doPost()
+3.在web.xml文件中注册Servlet
