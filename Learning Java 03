@@ -38,3 +38,9 @@ page内置对象
 page对象就是指向当前JSP页面本身，有点像类中的this指针，它是
 java.lang.Object类的实例
 
+<jsp:setProperty> 动作标签
+作用：给已经实例化的JavaBean对象的属性赋值，一共有四种形式
+<jsp:setProperty name="JavaBean实例名" property="*"/> (跟表单相关)
+<jsp:setProperty name="JavaBean实例名" property="JavaBean属性名" /> (跟表单相关)
+<jsp:setProperty name="JavaBean实例名" property="JavaBean属性名" value="BeanValue" /> (手工进行设置)
+<jsp:setProperty name="JavaBean实例名" property="propertyname" param="request对象中的参数名" /> (跟request参数关联)
