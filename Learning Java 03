@@ -23,3 +23,12 @@ Session的销毁，三种销毁方式
 2.Session过期了（超时）
 3.服务器重新启动
 
+JSP内置对象：application对象
+===========================
+application对象实现了用户间数据的共享，可存放全局变量
+application开始于服务器的启动，终于服务器的关闭
+在用户的前后连接或不同用户之间的连接中，可以对application对象的同一属性进行操作
+在任何地方对application对象属性的操作，都将影响到其他用户的操作
+服务器的启动和关闭决定了application对象的生命
+application对象是ServletContext类的实例
+
