@@ -44,3 +44,7 @@ java.lang.Object类的实例
 <jsp:setProperty name="JavaBean实例名" property="JavaBean属性名" /> (跟表单相关)
 <jsp:setProperty name="JavaBean实例名" property="JavaBean属性名" value="BeanValue" /> (手工进行设置)
 <jsp:setProperty name="JavaBean实例名" property="propertyname" param="request对象中的参数名" /> (跟request参数关联)
+
+<jsp:getProperty>
+作用：获取指定JavaBean对象的属性值
+<jsp:getProperty name="JavaBean实例名" property="属性名" />
