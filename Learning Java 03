@@ -57,3 +57,8 @@ page 当前页面有效
 request 通过HttpRequest.getAttribute()方法获得JavaBean对象
 session 可以通过HttpSession.getAttribute()方法获得JavaBean对象
 application 可以通过application.getAttribute()方法获得JavaBean对象
+
+
+什么是Servlet
+==============
+Servlet是运行在服务器端的小程序，而且是可以采用“请求”，“响应”访问Servlet小程序。
