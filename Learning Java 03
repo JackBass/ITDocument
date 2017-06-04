@@ -32,3 +32,9 @@ application开始于服务器的启动，终于服务器的关闭
 服务器的启动和关闭决定了application对象的生命
 application对象是ServletContext类的实例
 
+
+page内置对象
+===========
+page对象就是指向当前JSP页面本身，有点像类中的this指针，它是
+java.lang.Object类的实例
+
