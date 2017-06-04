@@ -61,4 +61,9 @@ application 可以通过application.getAttribute()方法获得JavaBean对象
 
 什么是Servlet
 ==============
-Servlet是运行在服务器端的小程序，而且是可以采用“请求”，“响应”访问Servlet小程序。
+Servlet是运行在服务器端的小程序，并且是可以采用“请求-响应” 编程模型访问驻留在
+服务器内存里的Servlet小程序。
+
+Tomcat容器等级
+==============
+Servlet的容器管理Context容器，一个Context对应一个Web工程
