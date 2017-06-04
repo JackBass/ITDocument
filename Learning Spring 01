@@ -3,3 +3,24 @@ http://edu.csdn.net/course/detail/852/   -- Spring Framwork 基础入门教程�
 http://www.tutorialspoint.com/spring/index.htm
 
 http://edu.csdn.net/course/detail/4370   --- Spring+SpringMVC+MyBaits 整合视频（收费）
+========================================================================================
+
+第一个Spring应用程序
+
+1.创建Spring的IOC容器对象
+ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationcontext.xml");
+
+2.从IOC容器中获取Bean实例
+HelloWorld helloworld = (HelloWorld)ctx.getBean("helloWorld") -- helloWorld这个值来自bean标签的id
+
+3.调用方法
+helloWorld.hello();
+
+===============================
+applicationcontext.xml中的内容
+===============================
+<bean id="helloWolrd" class="org.tensor.spring.HelloWorld">
+  <property name="name" value="Spring"></property>
+</bean>
+
+property标签中name的属性值，是指开发人员自定义Bean的setName()方法，value属性是具体赋的值
