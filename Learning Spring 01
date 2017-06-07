@@ -28,3 +28,8 @@ applicationcontext.xml中的内容
 </bean>
 
 property标签中name的属性值，是指开发人员自定义Bean的setName()方法，value属性是具体赋的值
+
+
+Spring使用AOP编程时使用如下jar包
+=============================
+aspectjrt.jar，aspectjweaver.jar，aopalliance.jar
