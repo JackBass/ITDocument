@@ -73,3 +73,5 @@ Servlet的容器管理Context容器，一个Context对应一个Web工程
 1.继承HttpServlet抽象类
 2.覆写doGet()或者doPost()
 3.在web.xml文件中注册Servlet
+
+=======================================================
