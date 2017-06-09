@@ -33,3 +33,8 @@ property标签中name的属性值，是指开发人员自定义Bean的setName()�
 Spring使用AOP编程时使用如下jar包
 =============================
 aspectjrt.jar，aspectjweaver.jar，aopalliance.jar spring-aop-version-RELEASE.jar
+
+
+Spring Transaction(事务管理)
+=============================
+Spring 同时支持面向编程的事务管理，另一个是面向声明式的事务管理。
