@@ -12,3 +12,17 @@ REST 风格的URL
 1.需要配置HiddenHttpMethodFilter
 2.需要发送POST请求
 3.需要在发送POST请求时携带一个name="_method" 的隐藏域，值为DELETE或者PUT
+
+
+Spring MVC @RequestParam()请求参数
+=================================
+
+
+Spring MVC @RequestHeader()请求头注解
+====================================
+
+
+
+Spring MVC @CookieValue Annotation
+==================================
+可以使处理方法入参绑定某个Cookie值
