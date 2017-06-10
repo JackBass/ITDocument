@@ -79,4 +79,17 @@ Spring MVC @ModelAttribute注解（重要，但是难以理解）
   3）*SpringMVC 会把WebDataBinder的attrName和target给到implicitModel
   4）把WebDataBinder的target作为参数传递给目标方法的入餐
       
-  
+
+SpringMVC 确定目标方法POJO类型入参的过程
+====================================
+1.确定一个key
+  1）若目标方法的POJO类型的参数没有使用@ModelAttribute作为修饰，则key为POJO类名第一个字母小写的
+  2）若使用了@ModelAttribute来修饰，则key为@ModelAttribute注解的value属性值
+2.在implicitModel中查找key对应的对象，若存在，则作为入参传递
+  1）若在@ModelAttribute标记的方法中在Map中保存过，且key和已确定的key一致，则会获取到。
+3.若implicitModel中不存在key对应的对象，则检查当前的Handler是否使用@SessionAttribues注解修饰，
+  若使用了该注解，且@SessionAttributes注解的value属性值包含了key，则会从HttpSession中来获取Key所对应的
+  value值，若存在则直接传入到目标方法的入参中，若不存在则抛出异常。
+4.若Handler没有标识@SessionAttributes注解或@SessionAttributes注解的value值中不包含key，则会通过反射来创建
+  POJO类型的参数，传入为目标方法的参数
+5.SpringMVC 会把key和value保存到implicitModel中，进而会保存到request中
