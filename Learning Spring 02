@@ -1,4 +1,14 @@
 Spring MVC 
 ================
+REST 风格的URL
+以CRUD为例
 
+新增:/order POST
+修改:/order/1 PUT      update?id=1
+获取:/order/1 GET      get?id=1
+删除:/order/1 DELETE   delete?id=1
 
+如何发送PUT请求和DELETE请求呢？
+1.需要配置HiddenHttpMethodFilter
+2.需要发送POST请求
+3.需要在发送POST请求时携带一个name="_method" 的隐藏域，值为DELETE或者PUT
