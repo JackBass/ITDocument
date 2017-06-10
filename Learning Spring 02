@@ -26,3 +26,4 @@ Spring MVC @RequestHeader()请求头注解
 Spring MVC @CookieValue Annotation
 ==================================
 可以使处理方法入参绑定某个Cookie值
+了解即可，开发中不常用
