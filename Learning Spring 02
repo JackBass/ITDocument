@@ -93,3 +93,18 @@ SpringMVC 确定目标方法POJO类型入参的过程
 4.若Handler没有标识@SessionAttributes注解或@SessionAttributes注解的value值中不包含key，则会通过反射来创建
   POJO类型的参数，传入为目标方法的参数
 5.SpringMVC 会把key和value保存到implicitModel中，进而会保存到request中
+
+
+SpringMVC数据绑定总结
+====================
+1.有@ModelAttribute标记的方法，会在每个目标方法执行之前被SpringMVC调用
+2.@ModelAttribute注解也可以来修饰目标方法POJO类型的入参，其value属性值有
+如下的作用：
+1）SpringMVC会使用value属性值在implicitModel中查找对应的对象，若存在则会
+直接传入到目标方法的入参中，
+2）SpringMVC会一value为key，POJO类型的对象为value，存入到request中
+
+
+
+
+
