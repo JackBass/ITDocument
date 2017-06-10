@@ -27,3 +27,20 @@ Spring MVC @CookieValue Annotation
 ==================================
 可以使处理方法入参绑定某个Cookie值
 了解即可，开发中不常用
+
+
+Spring MVC
+==================================
+可以使用原生的Servlet API作为目标方法的参数
+具体可以支持以下的类型
+HttpServletRequest
+HttpServletResponse
+HttpSession
+java.security.Principal
+Locale
+InputStream
+OutputStream
+Reader
+Writer
+
+
