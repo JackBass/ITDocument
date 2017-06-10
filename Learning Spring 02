@@ -46,4 +46,5 @@ Writer
 ==============
 处理模型数据
 ==============
+Spring MVC 会把ModelAndView的Model中数据放入到request 域对象中
 
