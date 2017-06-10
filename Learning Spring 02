@@ -48,3 +48,16 @@ Writer
 ==============
 Spring MVC 会把ModelAndView的Model中数据放入到request 域对象中
 
+目标方法可以添加Map类型（实际上也可以是Model类型或者是ModelMap类型 --- 开发中比较常用
+
+如果开发人员希望在多个请求之间共用某个模型属性数据，则可以在控制器类上标注一个sessionAttribues
+SpringMVC将对应的属性存储在HttpSession中
+
+@SessionAttributes 除了可以通过属性名指定需要放到会话中的属性，还可以通过模型属性的
+对象类型指定哪些模型属性需要放到会话中 （只能放在类上，不能放在方法上 开发时会用到）
+
+
+Spring MVC @ModelAttribute注解（重要，但是难以理解）
+===============================================
+@ModelAttribute 重点掌握
+
