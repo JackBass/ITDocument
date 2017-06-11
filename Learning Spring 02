@@ -105,6 +105,24 @@ SpringMVC数据绑定总结
 2）SpringMVC会一value为key，POJO类型的对象为value，存入到request中
 
 
+SpringMVC 处理静态资源
+======================
+在SpringMVC 资源配置文件中使用
+这个标签的意义是，如果资源在SpringMVC资源文件中映射过，没有问题
+如果没有映射，SpringMVC将使用Web服务器中默认Servlet进行查找
+<mvc:default-servlet-handler/>
 
+
+--开发的时候通常会加入下面的标签
+--在开发中如果使用类型转换器时
+<mvc:annotation-driven></mvc:annotation-driven>
+<mvc:annotation-driven conversion-service="conversionService"></mvc:annotation-driven>
+
+
+SpringMVC数据绑定
+=================
+@InitBinder标识的方法可以对WebDataBinder对象进行初始化
+WebDataBinder是DataBinder的子类，用于完成由表单到字段
+的JavaBean属性的绑定
 
 
