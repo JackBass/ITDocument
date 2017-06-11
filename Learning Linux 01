@@ -1,0 +1,8 @@
+Learning Linux
+===============
+当用户使用sudo命令时遇到下面的信息
+is not in the sudoers file.  This incident will be reported. 
+遇到这种情况下，使用root用户登陆系统，
+#vim /etc/sudoers
+找到root    ALL=(ALL)       ALL”一行，在下面插入新的一行，内容是“cuser   ALL=(ALL)       ALL”
+并使用wq!命令保存，注意要使用前面的命令，该文件是个只读文件。
