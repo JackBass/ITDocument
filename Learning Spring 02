@@ -133,3 +133,8 @@ SpringMVC的数据校验
 3.错误消息如何显示，如何把错误消息进行国际化
 
 通过注解进行验证（JSR 303） 为Bean数据合法化
+
+
+SpringMVC JSON
+====================
+SpringMVC JSON数据的生成，其原理是HttpMessageConverter<T>
