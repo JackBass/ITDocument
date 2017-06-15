@@ -1,0 +1,6 @@
+Happymmall Project
+===================
+
+1. Install Java JDK7u80 package under CentOS6.8
+sudo rpm -ivh jdk-7u80-linux-x64.rpm 
+
