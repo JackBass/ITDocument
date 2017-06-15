@@ -2,5 +2,18 @@ Happymmall Project
 ===================
 
 1. Install Java JDK7u80 package under CentOS6.8
-sudo rpm -ivh jdk-7u80-linux-x64.rpm 
-
+   sudo rpm -ivh jdk-7u80-linux-x64.rpm 
+   sudo vim /etc/profile
+   export JAVA_HOME=/usr/java/jdk1.7.0_80
+   export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+   export PATH=$PATH:$JAVA_HOME/bin
+   source /etc/profile
+   
+2. Install the Tomcat in CentOS6.8
+   tar -xvf apache-tomcat-7.0.75.tar.gz
+   cd apache-tomcat-7.0.75
+   vim conf/server.xml
+   /8080
+   add URIEncoding="UTF-8"
+   
+3.
