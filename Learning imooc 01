@@ -20,4 +20,12 @@ Happymmall Project
    add -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
    
    sudo service iptables restart
-3.
+
+3. Install Apache Maven on CentOS6.8.
+   tar -xvf apache-maven-3.3.9-bin.tar.gz
+   
+   sudo /etc/profile
+   export MAVEN_HOME=/home/tony/developer/apache-maven-3.3.9
+   export PATH=$MAVEN_HOME/bin
+   
+4. 
