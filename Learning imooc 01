@@ -16,4 +16,8 @@ Happymmall Project
    /8080
    add URIEncoding="UTF-8"
    
+   vim /etc/sysconf/iptables
+   add -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+   
+   sudo service iptables restart
 3.
