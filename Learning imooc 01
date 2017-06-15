@@ -28,4 +28,5 @@ Happymmall Project
    export MAVEN_HOME=/home/tony/developer/apache-maven-3.3.9
    export PATH=$MAVEN_HOME/bin
    
-4. 
+4. vsftpd install on CentOS6.8
+   
