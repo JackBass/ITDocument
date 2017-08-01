@@ -49,6 +49,9 @@ http://www.cnblogs.com/eggbucket/archive/2012/02/02/2335697.html   ---- junit4 �
 http://www.cnblogs.com/fingertouch/archive/2013/05/02/3054721.html  --- Linux 下写汇编程序
 
 http://www.importnew.com/15141.html --- importnew SpringMVC 入门教程
+
+https://github.com/hehaiyangwork   -- Maven-Demo SpringMVC 很好的一个例子
+
 =====================================================================================
  设置Git的user name和email：
 
