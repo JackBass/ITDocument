@@ -52,6 +52,9 @@ http://www.importnew.com/15141.html --- importnew SpringMVC 入门教程
 
 https://github.com/hehaiyangwork   -- Maven-Demo SpringMVC 很好的一个例子
 
+https://www.youtube.com/watch?v=0XL1NBUv2NU  Youtube DataStructure Training Video.
+
+
 http://www.cnblogs.com/hehaiyang/p/4745897.html   Oracle SQL 外链接
 =====================================================================================
  设置Git的user name和email：
