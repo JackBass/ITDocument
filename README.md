@@ -52,6 +52,9 @@ http://www.importnew.com/15141.html --- importnew SpringMVC 入门教程
 
 https://github.com/hehaiyangwork   -- Maven-Demo SpringMVC 很好的一个例子
 
+http://www.cnblogs.com/best/p/5638827.html  -- 非常详细的Eclipse环境下，Spring+Maven+Mybatis配置教程
+
+
 https://www.youtube.com/watch?v=0XL1NBUv2NU  Youtube DataStructure Training Video.
 
 https://www.youtube.com/watch?v=YWnBbNj_G-U  Youtube DataStructure and Algorithms in one Video.
