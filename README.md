@@ -52,6 +52,8 @@ http://www.importnew.com/15141.html --- importnew SpringMVC 入门教程
 
 https://github.com/hehaiyangwork   -- Maven-Demo SpringMVC 很好的一个例子
 
+http://www.imooc.com/article/15638  -- Spring boot + mybatis + Vue.js + ElementUI 实现数据的增删改查(1)
+
 http://blog.csdn.net/qq_31065001/article/details/64912687  Spring Boot JSP应用实例
 
 http://www.cnblogs.com/best/p/5638827.html  -- 非常详细的Eclipse环境下，Spring+Maven+Mybatis配置教程
