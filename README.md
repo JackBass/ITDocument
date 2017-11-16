@@ -19,6 +19,8 @@ http://www.tutorialspoint.com/java/io/outputstream_write.htm  ------- Java API E
 
 http://blog.csdn.net/liuzhenwen/article/details/28078625 -- Hadoop Hive Integrated with HBase.
 
+https://developers.google.com/fonts/docs/getting_started. ---- Google Font Blog (Useful website)
+
 
 http://blog.csdn.net/zxcvg/article/details/18600335  --- Flume-ng+Kafka+storm的学习笔记 (非常好的文章)
 
