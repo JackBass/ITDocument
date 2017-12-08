@@ -62,6 +62,7 @@ http://www.cnblogs.com/best/p/5638827.html  -- 非常详细的Eclipse环境下�
 
 http://www.ncnynl.com/  创客智造
 
+http://www.oracle.com/technetwork/articles/dsl/python-091105.html   Oracle Offical Document for Python access Oracle 11g
 
 https://www.youtube.com/watch?v=0XL1NBUv2NU  Youtube DataStructure Training Video.
 
