@@ -70,6 +70,8 @@ https://www.youtube.com/watch?v=YWnBbNj_G-U  Youtube DataStructure and Algorithm
 
 https://www.youtube.com/watch?v=-1nwZznnsCs&list=PLIgVNMF8pXSHr9FRzRrxH_AW8oTbJLfhg  Objective-C 培训视频（台湾版）
 
+http://codebasicshub.com/  -- Very useful Python Learning resource.
+
 http://www.cnblogs.com/hehaiyang/p/4745897.html   Oracle SQL 外链接
 =====================================================================================
  设置Git的user name和email：
