@@ -75,6 +75,8 @@ http://codebasicshub.com/  -- Very useful Python Learning resource.
 http://www.cnblogs.com/Joanna-Yan/p/6812311.html   Spring+SpringMVC+MyBatis 整合的非常翔实的案例(配置方案)
 
 http://www.cnblogs.com/hehaiyang/p/4745897.html   Oracle SQL 外链接
+
+https://zhuanlan.zhihu.com/p/22543073  ---- 踏潮 BI 学习大纲
 =====================================================================================
  设置Git的user name和email：
 
