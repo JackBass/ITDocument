@@ -76,6 +76,9 @@ http://www.cnblogs.com/Joanna-Yan/p/6812311.html   Spring+SpringMVC+MyBatis 整�
 
 http://www.cnblogs.com/hehaiyang/p/4745897.html   Oracle SQL 外链接
 
+https://wenku.baidu.com/view/c055cdc52cc58bd63186bd38.html  Oracle EBS FND FLEXSQL 简介
+
+
 https://zhuanlan.zhihu.com/p/22543073  ---- 踏潮 BI 学习大纲
 =====================================================================================
  设置Git的user name和email：
