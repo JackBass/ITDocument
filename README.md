@@ -80,6 +80,9 @@ https://wenku.baidu.com/view/c055cdc52cc58bd63186bd38.html  Oracle EBS FND FLEXS
 
 
 https://zhuanlan.zhihu.com/p/22543073  ---- 踏潮 BI 学习大纲
+
+https://www.zhihu.com/question/29138020  --- 如何系统地自学 Python
+
 =====================================================================================
  设置Git的user name和email：
 
