@@ -83,6 +83,8 @@ https://zhuanlan.zhihu.com/p/22543073  ---- 踏潮 BI 学习大纲
 
 https://www.zhihu.com/question/29138020  --- 如何系统地自学 Python
 
+https://www.zhihu.com/question/21082351  --- 如何直观理解矩阵和线性代数
+
 =====================================================================================
  设置Git的user name和email：
 
