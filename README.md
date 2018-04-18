@@ -85,6 +85,7 @@ https://www.zhihu.com/question/29138020  --- 如何系统地自学 Python
 
 https://www.zhihu.com/question/21082351  --- 如何直观理解矩阵和线性代数
 
+https://support.apple.com/zh-cn/HT201236 --- Apple Short Cut Reference
 =====================================================================================
  设置Git的user name和email：
 
