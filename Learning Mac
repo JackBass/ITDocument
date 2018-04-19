@@ -11,3 +11,9 @@
 7) Command-Shift-4 再按空格键：这时光标会变为一个照相机图标，点击可拍下当前窗口或菜单或Dock以及图标等，
    只要将照相机图标移动到不同区域（有效区域会显示为浅蓝色）点击；
 8) Command-Shift-Control-4 再按空格键：将选取的窗口或其他区域的快照保存到剪贴板。
+
+9) openssl dgst -sha256 /full/path/to/file --- Mac command to Verifying an SHA256 checksum
+
+10) openssl md5 /full/path/to/file --- Mac command to Verifying a MD5 checksum
+
+11) openssl sha1 /full/path/to/file  ---- Verifying an SHA-1 checksum
