@@ -78,6 +78,7 @@ http://www.cnblogs.com/hehaiyang/p/4745897.html   Oracle SQL 外链接
 
 https://wenku.baidu.com/view/c055cdc52cc58bd63186bd38.html  Oracle EBS FND FLEXSQL 简介
 
+https://book.systemsapproach.org/foundation/problem.html   --- Computer Network under system approach E-Book
 
 https://zhuanlan.zhihu.com/p/22543073  ---- 踏潮 BI 学习大纲
 
