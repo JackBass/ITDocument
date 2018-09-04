@@ -88,6 +88,10 @@ https://www.zhihu.com/question/21082351  --- 如何直观理解矩阵和线性�
 
 https://support.apple.com/zh-cn/HT201236 --- Apple Short Cut Reference
 
+https://www.geeksforgeeks.org/c-programming-language/  雨痕推荐的网址
+
+https://ithare.com/ 雨痕推荐的网址
+
 =====================================================================================
  设置Git的user name和email：
 
