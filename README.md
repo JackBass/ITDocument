@@ -70,6 +70,8 @@ https://www.youtube.com/watch?v=YWnBbNj_G-U  Youtube DataStructure and Algorithm
 
 https://www.youtube.com/watch?v=-1nwZznnsCs&list=PLIgVNMF8pXSHr9FRzRrxH_AW8oTbJLfhg  Objective-C 培训视频（台湾版）
 
+https://www.youtube.com/watch?v=V1Z3_FtM1Yw  Assembly Language Tutorials
+
 http://codebasicshub.com/  -- Very useful Python Learning resource.
 
 http://www.cnblogs.com/Joanna-Yan/p/6812311.html   Spring+SpringMVC+MyBatis 整合的非常翔实的案例(配置方案)
