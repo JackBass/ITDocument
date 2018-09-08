@@ -98,7 +98,9 @@ https://medium.com/coderbyte/how-to-get-good-at-algorithms-data-structures-d33d5
 
 https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/  
 
-=====================================================================================
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/
+
+======================================================================================
  设置Git的user name和email：
 
 $ git config --global user.name "xuhaiyan"
