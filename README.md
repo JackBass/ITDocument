@@ -96,6 +96,8 @@ https://ithare.com/ 雨痕推荐的网址
 
 https://medium.com/coderbyte/how-to-get-good-at-algorithms-data-structures-d33d5163353f  How to get good at algorithms & data Structure
 
+https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/  
+
 =====================================================================================
  设置Git的user name和email：
 
